@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.first-section {
+  display: flex;
+  margin: 5%;
+}
+.welcome-section {
+  width: 50%;
+}
+.welcome-section img {
+  width: 100%;
+}
