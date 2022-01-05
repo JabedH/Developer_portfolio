@@ -5,13 +5,69 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.first-sec {
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
 .first-section {
   display: flex;
-  margin: 5%;
+  padding: 5%;
 }
 .welcome-section {
   width: 50%;
 }
+.welcome-section h1 {
+  font-size: 40px;
+}
 .welcome-section img {
-  width: 100%;
+  width: 70%;
+}
+.developing {
+  color: #ffa500;
+}
+.course {
+  margin-bottom: 20px;
+}
+.Welcome {
+  margin-bottom: 20px;
+}
+.welcome-section h3 {
+  margin-bottom: 10px;
+}
+.welcome-section p {
+  margin: 30px 0;
+  text-align: justify;
+}
+.Click {
+  display: flex;
+  justify-content: center;
+}
+.welcome-section a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(tomato, #ffa500);
+  width: 80px;
+  height: 20px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.welcome-img {
+  display: flex;
+  justify-content: center;
+}
+.second-section {
+  display: flex;
+  padding: 5%;
+}
+.python {
+  display: flex;
+  align-items: center;
+}
+.python p {
+  text-align: justify;
+}
+.second-sec {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
