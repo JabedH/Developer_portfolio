@@ -71,3 +71,54 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+/* ----third section--- */
+.third-section {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+}
+
+.third-sec h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.full-stack {
+  width: 40%;
+  box-shadow: 10px 10px 30px 1px #ccc;
+  padding: 50px;
+  height: 250px;
+  border-radius: 10px;
+}
+.full-stack p {
+  text-align: justify;
+}
+.full-stack h3 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.full-stack h4 {
+  margin-bottom: 20px;
+  color: #ffa500;
+}
+.Full-dev {
+  border-left: 10px solid;
+  border-image: linear-gradient(tomato, #ffa500);
+  border-image-slice: 1;
+  margin-left: 60px;
+}
+.Junior-dev {
+  margin-right: 60px;
+}
+.Junior-dev {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, skyblue);
+  border-image-slice: 1;
+}
+
+footer {
+  margin: 100px 0 40px;
+  text-align: center;
+}
